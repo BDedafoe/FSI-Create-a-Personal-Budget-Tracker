@@ -1,3 +1,4 @@
+//my code. This code is saved / runs
 let weeklyExpenses = 0
 let monthlyExpenses = 0
 let annualExpenses = 0
@@ -12,5 +13,7 @@ for(let i = 0; i < monthlyExpenseQuestions.length; i++) {
 }
 for (let i = 0; i < annualExpenseQuestions.length; i++) {
     let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
-    annualExpenses = answer
-}            
+    annualExpenses = annualExpenses + answer
+}     
+
+
